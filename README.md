@@ -1,1 +1,0 @@
-# ericgarciaportfolio
