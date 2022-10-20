@@ -9,20 +9,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Eric Garcia Portfolio</title>
+    <title>Eric Garcia</title>
 </head>
+<style>
+    /* .parallax {
+      height:500px;
+    } */
+    .nav-wrapper {
+        padding-right: 13.3rem;
+    }
+    .image-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .me {
+        margin-left: auto;
+        margin-top: -64px;
+        position: fixed;
+        
+    }
+</style>
 <body>
     <nav>
         <div class="nav-wrapper blue-grey">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <a href="index.html">ERIC's PORTFOLIO</a>
+            <a class="flow-text"href="index.html">ERIC GARCIA</a>
             
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <img class="circle responsive-image z-depth-5 right" width="200" src="/img/profile.jpg" alt="Eric Garcia">
                 <li><a href="index.html">BIO</a></li>
                 <li><a href="resume.html">RESUME</a></li>
                 <li><a href="projects.html">PROJECTS</a></li>
@@ -46,32 +63,79 @@
         <li><a class="sidenav-close" href="resume.html">RESUME</a></li>
         <li><a class="sidenav-close" href="projects.html">PROJECTS</a></li>
     </ul>
-
-    <div class="container">
-        <div class="row">
-            <div class="col s9">
-                <p>Lean agile web development will deliver product faster than the Millenium Falcon doing the Kessle Run. Setting clear programmatic goals and strategic objectives</p>
-            </div>    
-            <div class="col s3">
-                <p>qlirebfqlrkwbfeqilrbfqelrkjbfelrqkjbhgqekljvgbeqrklb</p>
-            </div>    
-        </div>    
     
-
-        <div class="row">
-
-            <div class="col s4">
-            <!-- Promo Content 1 goes here -->
-            </div>
-            <div class="col s4">
-            <!-- Promo Content 2 goes here -->
-            </div>
-            <div class="col s4">
-            <!-- Promo Content 3 goes here -->
-            </div>
-    
+    <div class="parallax-container">
+        <div class="image-container hide-on-med-and-down">
+            <img class="circle me responsive-image z-depth-5 right" width="200" src="/img/profile.jpg" alt="Eric Garcia">
+        </div>
+        <div class="parallax"><img src="/img/background3.jpg"></div>
+    </div>
+    <div class="section blue-grey lighten-5 z-depth-5">
+        <div class="row container">
+          <p class="grey-text text-darken-3 lighten-3 flow-text"> 
+            Lean agile web development will deliver product more efficiently 
+            than the Millenium Falcon doing the Kessle Run. 
+          </p>
+          <p class="grey-text text-darken-3 lighten-3 flow-text">
+            Setting clear programmatic goals and strategic objectives will provide the ship 
+            to deliver a product that stakeholders want. 
+          </p>
+          <p class="grey-text text-darken-3 lighten-3 flow-text">
+            Prioritizing mentorship and giving direction will strengthen the team and enable successful 
+            completion of the mission. 
+          </p>
+          <p class="grey-text text-darken-3 lighten-3 flow-text">
+            Having a passion and desire to execute on all of the above will provide a leader that is capable of piloting that 
+            ship
+          </p>
+          <h2 class="grey-text text-darken-3 lighten-3">
+            My name is Eric, I will be your pilot...
+          </h2>
         </div>
     </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="/img/walkerssw.jpg"></div>
+    </div>
+    <div class="section blue-grey lighten-5">
+        <div class="row container">
+            <ul class="collapsible popout expandable">
+                <li>
+                  <div class="collapsible-header"><i class="large material-icons">flight</i>TRAVEL</div>
+                  <div class="collapsible-body flow-text"><span>I believe that travelling is an investment in yourself. It stimulates the senses, captures the imagination, and replenishes the soul. Experiencing different cultures and environments will always be an essential part of me and I look forward to experiencing more in the future  </span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="large material-icons">golf_course</i>GOLF</div>
+                  <div class="collapsible-body flow-text"><span>I have recently picked up golf and have been working with a coach to dial in my game for the last year. The game is challenging and humbling. I'm a Ping guy right now, but only because they seem to work best with my current swing. As I improve who knows what brand will be in the bag... in the end we are all just fighting for Par</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">landscape</i>OUTDOORS</div>
+                  <div class="collapsible-body flow-text"><span>I try to spend as much time as possible outdoors. I enjoy many outdoor activities like hiking, camping, paddle boarding, and bouldering. Probably the two I do the most are hiking and paddle boarding. Colorado summer begs for both.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">local_cafe</i>COFFEE</div>
+                    <div class="collapsible-body flow-text"><span>I can't get enough of it. I literally spend too much time thinking about my next cup of coffee. I feel like im a little snobby about it too, even though I dont mean to be. Personally im a French Press guy, but I like espresso and all forms of espresso drinks. Pour over? yes. Drip? yes. Currently I spend way too much on Bones Coffee out of Florida.... try them</span></div>
+                  </li>
+            </ul>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="/img/xwing.jpeg"></div>
+    </div>
+
+        <!-- <div class="row">
+
+            <div class="col s4">
+            
+            </div>
+            <div class="col s4">
+            
+            </div>
+            <div class="col s4">
+            
+            </div>
+    
+        </div> -->
+    
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- Compiled and minified JavaScript -->
@@ -82,6 +146,16 @@
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems, open);
             var instances = M.Sidenav.init(elems, close);
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems, {
+                responsiveThreshold:0,
+            });;
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems, open);
         });
     </script>
 </body>

@@ -9,18 +9,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Eric Garcia Portfolio</title>
+    <title class="flow-text">Eric Garcia</title>
 </head>
 <body>
     
     <nav>
         <div class="nav-wrapper blue-grey">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <a href="index.html">ERIC's PORTFOLIO</a>
+            <a class="flow-text" href="index.html">ERIC's PORTFOLIO</a>
             
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <img class="circle responsive-image z-depth-5 right" width="200" src="/img/profile.jpg" alt="Eric Garcia">
@@ -56,9 +56,9 @@
                         <div class="card-image">
                             <div class="carousel">
                                 <div class="carousel-fixed-item center">
-                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable" src="/img/chuckhome.png" height="250" width="200"></div>
-                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable" src="/img/chuckjoke.png" height="250" width="200"></div>
-                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable" src="/img/chuckbruce.png" height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable materialboxed" src="/img/chuckhome.png" height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable materialboxed" src="/img/chuckjoke.png" height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable materialboxed" src="/img/chuckbruce.png" height="250" width="200"></div>
                                 </div>
                             </div>    
                         </div>
@@ -81,9 +81,9 @@
                         <div class="card-image">
                             <div class="carousel">
                                 <div class="carousel-fixed-item center">
-                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable" src="/img/bagpeak.png"  height="250" width="100"></div>
-                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable" src="/img/peakhome.png"  height="250" width="100"></div>
-                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable" src="/img/peakindex.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable materialboxed" src="/img/bagpeak.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable materialboxed" src="/img/peakhome.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable materialboxed" src="/img/peakindex.png"  height="250" width="100"></div>
                                 </div>
                             </div>
                         </div> 
@@ -106,9 +106,9 @@
                         <div class="card-image">
                             <div class="carousel">
                                 <div class="carousel-fixed-item center">
-                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable" src="/img/TLHome.png"  height="250" width="100"></div>
-                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable" src="/img/LearningMaterial.png"  height="250" width="100"></div>
-                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable" src="/img/CreateLog.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable materialboxed" src="/img/TLHome.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable materialboxed" src="/img/LearningMaterial.png"  height="250" width="100"></div>
+                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable materialboxed" src="/img/CreateLog.png"  height="250" width="100"></div>
                                 </div>
                             </div>
                             <div class="card-content">
@@ -131,9 +131,9 @@
                         <div class="card-image">
                             <div class="carousel">
                                 <div class="carousel-fixed-item center">
-                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable" src="/img/signin.png"  height="250" width="200"></div>
-                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable" src="/img/userdetail.png"  height="250" width="200"></div>
-                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable" src="/img/userindex.png"  height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#one!"><img class="hoverable materialboxed" src="/img/signin.png"  height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#two!"><img class="hoverable materialboxed" src="/img/userdetail.png"  height="250" width="200"></div>
+                                    <div class="carousel-item z-depth-5" href="#three!"><img class="hoverable materialboxed" src="/img/userindex.png"  height="250" width="200"></div>
                                 </div>
                             </div>
                             <div class="card-content">
@@ -153,7 +153,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script>
-         document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.carousel');
             M.Carousel.init(elems, {
                 duration:500,
@@ -166,6 +166,10 @@
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems, open);
             var instances = M.Sidenav.init(elems, close);
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.materialboxed');
+            M.Materialbox.init(elems, open);
         });
        
 
